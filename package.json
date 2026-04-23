@@ -1,0 +1,48 @@
+{
+  "name": "css-token-defense",
+  "version": "3.0.0",
+  "description": "Bot mitigation via CSS rendering pipeline proof — render-time token delivery with paint timing gates and canvas environment binding",
+  "license": "MIT",
+  "author": "wolfgroupsuport",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wolfgroupsuport/css-token-defense"
+  },
+  "keywords": [
+    "bot-mitigation",
+    "anti-bot",
+    "application-security",
+    "css",
+    "hmac",
+    "csrf",
+    "render-proof",
+    "headless-detection",
+    "canvas-fingerprinting",
+    "paint-timing"
+  ],
+  "scripts": {
+    "test": "node scripts/test.js",
+    "demo": "node example/server-node.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "peerDependencies": {
+    "next": ">=14.0.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "next": { "optional": true },
+    "react": { "optional": true },
+    "react-dom": { "optional": true }
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
